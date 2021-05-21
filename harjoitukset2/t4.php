@@ -10,6 +10,7 @@ elseif($count == 3) {
     //Start over!
     $count = -1;
 }
+else $count = 0;
 $count++;
 ?>
 
