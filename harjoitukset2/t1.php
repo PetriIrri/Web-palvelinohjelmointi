@@ -16,14 +16,14 @@ if($quote3) echo "<p>“ Code is like humor. When you have to explain it, it’s
 ?>
 
 <form method="get" action="<?php echo $_SERVER['PHP_SELF'];?>">
-<input type="checkbox" value="1" name="quote1" id="quote1" <?php if($quote1) echo "checked";?>>
-<label for="quote1">Inspirational quote 1!</label></br>
-<input type="checkbox" value="2" name="quote2" id="quote2" <?php if($quote2) echo "checked";?>>
-<label for="quote2">Inspirational quote 2!</label></br>
-<input type="checkbox" value="3" name="quote3" id="quote3" <?php if($quote3) echo "checked";?>>
-<label for="quote3">Inspirational quote 3!</label></br>
+    <input type="checkbox" value="1" name="quote1" id="quote1" <?php if($quote1) echo "checked";?>>
+    <label for="quote1">Inspirational quote 1!</label></br>
+    <input type="checkbox" value="2" name="quote2" id="quote2" <?php if($quote2) echo "checked";?>>
+    <label for="quote2">Inspirational quote 2!</label></br>
+    <input type="checkbox" value="3" name="quote3" id="quote3" <?php if($quote3) echo "checked";?>>
+    <label for="quote3">Inspirational quote 3!</label></br>
 
-<br><br>
+    <br><br>
 
-<input type="submit" name="painike" value="Lähetä">
+    <input type="submit" name="painike" value="Lähetä">
 </form>
